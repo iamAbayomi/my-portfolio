@@ -1,0 +1,7 @@
+---
+deployment:
+    tasks:
+      - export DEPLOYPATH=/home/oladinia/public_html
+      - export GITPATH=/home/oladinia/public_html/api
+      - /bin/cp -R * $DEPLOYPATH
+      - /bin/cp .git $GITPATH
