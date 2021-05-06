@@ -61,6 +61,13 @@ header{
     font-weight: 650;
 }
 
+.heading-sub-text{
+    font-size: 16px;
+    max-width: 1200px;
+    font-weight: 450;
+    line-height: 26px;
+}
+
 .no-underline{
     text-decoration: none;
 }
