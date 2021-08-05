@@ -134,11 +134,13 @@ header{
   
   /* Large Breakpoint */
   @media screen and (min-width: 1100px){
-    .container .content {
+    .container {
       margin: auto;
+      width: 100%;
       max-width: 1200px;
     } 
 
+    
     img{
         margin: auto;
         width: 100%;
@@ -186,6 +188,7 @@ header{
     }
 
     .work-single-content{
+        width: 100%;
         max-width: 500px;
     }
 
