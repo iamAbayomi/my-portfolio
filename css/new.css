@@ -57,23 +57,37 @@ header{
     margin: 10px 0px 20px 0px;
 }
 
+.large-text{
+    font-size: 36px;
+    font-weight: 700;
+    margin: 120px 0px 15px 0px;
+}
+
+.subtitle{
+    margin: 10px 0px 60px 0px;
+}
+
+.headline-image{
+    margin: 70px 0px 100px 0px;
+}
 
 .work-section{
     margin: 20px 0px 20px 0px;
 }
+
+.work-single-content{
+    margin: 60px 0px 20px 0px;
+}
+
 
 .large-text .section-text .footer-text{
     font-family: Nunito;
 }
 
 
-.large-text{
-    font-size: 36px;
-    font-weight: 700;
-}
 
 .section-text{
-    margin: 10px 0px 20px 0px;
+    margin: 40px 0px 20px 0px;
     font-size: 28px;
     font-weight: 700;
 }
@@ -81,9 +95,11 @@ header{
 .item-header{
     font-size: 22px;
     font-weight: bold;
+    margin: 40px 0px 0px 0px;
 }
 
 .footer-text {
+    margin: 40px 0px 20px 0px;
     display: flex;
     justify-content: space-between;
 }
