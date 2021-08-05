@@ -8,8 +8,7 @@ body{
     margin: 0px;
     padding: 0px;
     font-size: 16px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Nunito sans;
     background-color: #ffffff; 
    
 }
@@ -19,8 +18,76 @@ img{
     max-width: 300px;
 }
 
-.container{
+.no-underline{
+    /* margin: 20px; */
+    color: #031E47;
+    text-decoration: none;
+}
+ 
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-icon{
+    margin: 5px 10px 0px 15px;
+    font-size: 42px;
+    font-weight: 550;
+    color: #031E47;
+}
+
+.nav-id{
+    display: flex;
+    margin-right: 25px;
+}
+
+.nav-id a{
+    margin: 20px;
+    color: #031E47;
+    text-decoration: none;
+}
+
+.content{
     margin: auto;
     max-width: 300px;
 }
 
+.value-prop{
+    margin: 10px 0px 20px 0px;
+}
+
+
+.work-section{
+    margin: 20px 0px 20px 0px;
+}
+
+.large-text .section-text .footer-text{
+    font-family: Nunito;
+}
+
+
+.large-text{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.section-text{
+    margin: 10px 0px 20px 0px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.item-header{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text{
+    font-weight: bold;
+}
