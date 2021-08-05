@@ -87,7 +87,7 @@ header{
 
 
 .section-text{
-    margin: 40px 0px 20px 0px;
+    margin: 140px 0px 60px 0px;
     font-size: 28px;
     font-weight: 700;
 }
@@ -95,7 +95,11 @@ header{
 .item-header{
     font-size: 22px;
     font-weight: bold;
-    margin: 40px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
+}
+
+.work-subtitle{
+    margin: 5px 0px 100px 0px;   
 }
 
 .footer-text {
@@ -106,4 +110,32 @@ header{
 
 .footer-text{
     font-weight: bold;
+}
+
+
+
+/* Small Breakpoint */
+@media screen and (min-width: 580px){
+    .content {
+      max-width: 550px;
+    }
+    img{
+        margin: auto;
+        max-width: 560px;
+    }
+    
+  }
+  
+  /* Large Breakpoint */
+  @media screen and (min-width: 1000px){
+    .content {
+      max-width: 950px;
+    } 
+    
+    .value-prop{
+        display: flex;
+    }
+
+
+
 }
