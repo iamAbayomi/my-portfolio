@@ -1,7 +1,27 @@
 html {
     font-size: 100%;
   }
-  
+
+@font-face {
+    font-family: Nunito;
+    src: url(/fonts/Nunito/Nunito-Regular.ttf);
+}
+@font-face {
+    font-family: Nunito sans;
+    src: url(/fonts/Nunito\ sans/NunitoSans-Regular.ttf);
+} 
+
+@font-face {
+    font-family: Nunito;
+    src: url(/fonts/Nunito/Nunito-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Nunito sans;
+    src: url(/fonts/Nunito\ sans/NunitoSans-Bold.ttf);
+    font-weight: bold;
+}
+
 body{
     background-color: white;
     height: 100%;
@@ -61,7 +81,7 @@ header{
 
 .large-text{
     font-size: 36px;
-    font-weight: 700;
+    font-weight: bold;
     margin: 120px 0px 15px 0px;
 }
 
@@ -100,7 +120,7 @@ header{
 .section-text{
     margin: 140px 0px 60px 0px;
     font-size: 28px;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .item-header{
@@ -178,7 +198,7 @@ header{
     .section-text{
         margin: 140px 0px 30px 0px;
         font-size: 38px;
-        font-weight: 700;
+        font-weight: bold;
     }
 
 
