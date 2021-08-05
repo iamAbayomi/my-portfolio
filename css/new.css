@@ -134,19 +134,11 @@ header{
   
   /* Large Breakpoint */
   @media screen and (min-width: 1100px){
-    .container {
+    .container .content{
       margin: auto;
       width: 100%;
-      max-width: 1200px;
+      max-width: 1100px;
     } 
-
-    .content {
-        margin: 0px 30px;
-        width: 100%;
-        max-width: 1200px;
-      } 
-  
-    
     img{
         margin: auto;
         width: 100%;
@@ -156,7 +148,7 @@ header{
     .value-prop{
         display: flex;
         justify-content: space-between;
-        
+        width: 100%;
     }
 
     .headline-section{
@@ -187,6 +179,7 @@ header{
     .work-content{
         display: flex;
         width: 100%;
+        max-width: 1200px;
         justify-content: space-between;
         /* flex-wrap: nowrap; */
         /* flex-grow: 1; */
