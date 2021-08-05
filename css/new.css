@@ -75,6 +75,11 @@ header{
     margin: 20px 0px 20px 0px;
 }
 
+.work-content{
+    margin: 60px 0px 20px 0px;
+}
+
+
 .work-single-content{
     margin: 60px 0px 20px 0px;
 }
@@ -121,21 +126,79 @@ header{
     }
     img{
         margin: auto;
+        width: 100%;
         max-width: 560px;
     }
     
   }
   
   /* Large Breakpoint */
-  @media screen and (min-width: 1000px){
-    .content {
-      max-width: 950px;
+  @media screen and (min-width: 1100px){
+    .container .content {
+      margin: auto;
+      max-width: 1200px;
     } 
+
+    img{
+        margin: auto;
+        width: 100%;
+        max-width: 520px;
+    }
     
     .value-prop{
         display: flex;
+        justify-content: space-between;
+        
     }
 
+    .headline-section{
+        max-width: 650px;
+    }
+
+    .large-text{
+        font-size: 54px;
+    }
+    .subtitle {
+        margin: 40px 45px 60px 0px;
+        font-size: 22px;
+    }
+
+    .headline-image{
+        margin: 60px 0px 100px 0px;
+        max-width: 500px;
+    }
+
+    
+    .section-text{
+        margin: 140px 0px 30px 0px;
+        font-size: 38px;
+        font-weight: 700;
+    }
+
+
+    .work-content{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        /* flex-wrap: nowrap; */
+        /* flex-grow: 1; */
+
+    }
+
+    .work-single-content{
+        max-width: 500px;
+    }
+
+    .work-single-content{
+        /* margin: 0px 200px 20px 0px; */
+    }
+
+    
+
+    .footer-text{
+        margin: auto;
+        max-width: 300px;
+    }
 
 
 }
