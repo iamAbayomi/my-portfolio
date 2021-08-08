@@ -19,16 +19,22 @@ img{
 
 }
 
+
+.small-heading{
+    margin: 20px 0px 10px 0px;
+    font-weight: bold;
+}    
+
+.section-space-divider{
+    margin: 0px 0px 60px 0px;
+}
+
 /* Small Breakpoint */
 @media screen and (min-width: 580px){
     .external-link-section{
-        display: flex;
-        justify-content: space-between;
+        /* display: flex;
+        justify-content: space-between; */
     }
-    
-    .small-heading{
-        font-weight: bold;
-    }    
     
   }
 
