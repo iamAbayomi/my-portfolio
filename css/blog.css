@@ -19,6 +19,19 @@ img{
 
 }
 
+/* Small Breakpoint */
+@media screen and (min-width: 580px){
+    .external-link-section{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .small-heading{
+        font-weight: bold;
+    }    
+    
+  }
+
 
 .footer-text{
     margin: auto;
