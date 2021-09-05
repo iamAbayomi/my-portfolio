@@ -85,6 +85,7 @@ header{
 .large-text{
     font-size: 36px;
     font-weight: bold;
+    line-height: 1.5;
     margin: 120px 0px 15px 0px;
 }
 
@@ -134,6 +135,7 @@ header{
 
 .work-subtitle{
     margin: 5px 0px 100px 0px;   
+    line-height: 1.5;
 }
 
 .footer-text {
@@ -190,6 +192,7 @@ header{
     .subtitle {
         margin: 40px 45px 60px 0px;
         font-size: 18px;
+        line-height: 2.0;
     }
 
     .headline-image{
